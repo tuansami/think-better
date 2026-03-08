@@ -11,8 +11,8 @@ echo "Preparing embedded skills..."
 SKILLS_DIR="internal/skills/skills"
 rm -rf "$SKILLS_DIR"
 mkdir -p "$SKILLS_DIR"
-cp -r .github/prompts/make-decision "$SKILLS_DIR/make-decision"
-cp -r .github/prompts/problem-solving-pro "$SKILLS_DIR/problem-solving-pro"
+cp -r .agents/skills/make-decision "$SKILLS_DIR/make-decision"
+cp -r .agents/skills/problem-solving-pro "$SKILLS_DIR/problem-solving-pro"
 find "$SKILLS_DIR" -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
 echo "Done: skills ready for embedding"
 
