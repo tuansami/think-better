@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/htrbao/think-better/internal/targets"
+	"github.com/HoangTheQuyen/think-better/internal/targets"
 )
 
 // SharedFlags contains flags common to multiple subcommands.

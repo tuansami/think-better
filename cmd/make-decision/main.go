@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/htrbao/think-better/internal/cli"
-	"github.com/htrbao/think-better/internal/skills"
+	"github.com/HoangTheQuyen/think-better/internal/cli"
+	"github.com/HoangTheQuyen/think-better/internal/skills"
 )
 
 // Injected at build time via -ldflags -X

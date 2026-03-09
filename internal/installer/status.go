@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/htrbao/think-better/internal/skills"
-	"github.com/htrbao/think-better/internal/targets"
+	"github.com/HoangTheQuyen/think-better/internal/skills"
+	"github.com/HoangTheQuyen/think-better/internal/targets"
 )
 
 // Status represents the installation state of a skill.

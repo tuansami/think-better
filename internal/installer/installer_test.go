@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/htrbao/think-better/internal/skills"
-	"github.com/htrbao/think-better/internal/targets"
+	"github.com/HoangTheQuyen/think-better/internal/skills"
+	"github.com/HoangTheQuyen/think-better/internal/targets"
 )
 
 func TestCheckStatusNotInstalled(t *testing.T) {
@@ -50,7 +50,7 @@ func TestCheckStatusIncomplete(t *testing.T) {
 	}
 
 	// Create partial installation — just PROMPT.md
-	installDir := filepath.Join(tmpDir, ".github", "prompts", "make-decision")
+	installDir := filepath.Join(tmpDir, target.InstallDir(skill.Name))
 	if err := os.MkdirAll(installDir, 0o755); err != nil {
 		t.Fatal(err)
 	}

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/htrbao/think-better/internal/checker"
-	"github.com/htrbao/think-better/internal/installer"
-	"github.com/htrbao/think-better/internal/skills"
-	"github.com/htrbao/think-better/internal/targets"
+	"github.com/HoangTheQuyen/think-better/internal/checker"
+	"github.com/HoangTheQuyen/think-better/internal/installer"
+	"github.com/HoangTheQuyen/think-better/internal/skills"
+	"github.com/HoangTheQuyen/think-better/internal/targets"
 )
 
 // RunCheck handles the "check" subcommand.

@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/htrbao/think-better/internal/skills"
-	"github.com/htrbao/think-better/internal/targets"
+	"github.com/HoangTheQuyen/think-better/internal/skills"
+	"github.com/HoangTheQuyen/think-better/internal/targets"
 )
 
 // Installer handles skill file installation.
