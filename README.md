@@ -39,21 +39,38 @@ Ever stared at a problem for hours, going in circles? **Think Better injects str
 
 ## 🚀 Quick Start
 
+### Option 1: Download Binary (Recommended)
+
 ```bash
-# Clone & build
-git clone https://github.com/HoangTheQuyen/think-better.git
-cd think-better
+# macOS / Linux
+curl -sSL https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/install.sh | bash
+```
 
-# Linux / macOS
-make build          # or: bash build.sh
-
+```powershell
 # Windows (PowerShell)
-.\build.ps1
+irm https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/install.ps1 | iex
+```
 
-# Install skills for your AI assistant
-./bin/think-better init --ai claude      # For Claude (VS Code / Desktop)
-./bin/think-better init --ai copilot     # For GitHub Copilot
-./bin/think-better init --ai antigravity # For Antigravity
+### Option 2: Go Install
+
+```bash
+go install github.com/HoangTheQuyen/think-better/cmd/make-decision@latest
+```
+
+### Option 3: Build from Source
+
+```bash
+git clone https://github.com/HoangTheQuyen/think-better.git && cd think-better
+make build          # Linux/macOS (or: bash build.sh)
+.\build.ps1         # Windows
+```
+
+### Install Skills
+
+```bash
+think-better init --ai claude      # For Claude
+think-better init --ai copilot     # For GitHub Copilot
+think-better init --ai antigravity # For Antigravity
 ```
 
 Then just talk to your AI:
@@ -134,7 +151,8 @@ think-better/
 
 ## 📋 Requirements
 
-- **Go 1.25+** (to build the CLI)
+- **No requirements** for binary download (Option 1)
+- **Go 1.25+** only if building from source (Option 3)
 - **Python 3** (for skill analysis scripts)
 
 ---
@@ -160,21 +178,33 @@ Dù bạn đang **phân vân giữa 2 lời mời làm việc lúc 2 giờ sáng
 
 ### ⚡ Cài Đặt Nhanh
 
+**Cách 1: Tải binary (Khuyến nghị)**
 ```bash
-# Clone và build
-git clone https://github.com/HoangTheQuyen/think-better.git
-cd think-better
-
-# Linux / macOS
-make build          # hoặc: bash build.sh
-
+# macOS / Linux
+curl -sSL https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/install.sh | bash
+```
+```powershell
 # Windows (PowerShell)
-.\build.ps1
+irm https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/install.ps1 | iex
+```
 
-# Cài skill cho AI assistant
-./bin/think-better init --ai claude      # Cho Claude
-./bin/think-better init --ai copilot     # Cho GitHub Copilot
-./bin/think-better init --ai antigravity # Cho Antigravity
+**Cách 2: Go Install**
+```bash
+go install github.com/HoangTheQuyen/think-better/cmd/make-decision@latest
+```
+
+**Cách 3: Build từ source**
+```bash
+git clone https://github.com/HoangTheQuyen/think-better.git && cd think-better
+make build          # Linux/macOS
+.\build.ps1         # Windows
+```
+
+**Cài skill:**
+```bash
+think-better init --ai claude      # Cho Claude
+think-better init --ai copilot     # Cho GitHub Copilot
+think-better init --ai antigravity # Cho Antigravity
 ```
 
 ### 💬 Cách Dùng
