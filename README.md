@@ -1,17 +1,19 @@
 <div align="center">
 
+<img src="docs/images/banner.png" alt="Think Better Banner" width="100%">
+
 # 🧠 Think Better
 
-### **Stop Guessing. Start Deciding.**
+### **Stop Babysitting Your AI.**
 
-The AI-powered brain upgrade that turns vague problems into crystal-clear action plans.
-Whether you're choosing between two job offers at 2 AM, debugging a production outage, or planning a million-dollar strategy — **Think Better has a framework for that.**
+The open-source CLI that injects elite decision-making frameworks directly into your AI assistant's prompts. Turn your AI from a Code Monkey into a Staff Engineer.
 
 [![Go](https://img.shields.io/badge/Go-1.25-00ADD8?logo=go&logoColor=white)](https://golang.org)
 [![Skills](https://img.shields.io/badge/AI%20Skills-2-blueviolet)](https://github.com/HoangTheQuyen/think-better)
 [![Frameworks](https://img.shields.io/badge/Frameworks-10+-orange)](https://github.com/HoangTheQuyen/think-better)
 [![Biases](https://img.shields.io/badge/Cognitive%20Biases-12-red)](https://github.com/HoangTheQuyen/think-better)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Website](https://img.shields.io/badge/Website-thinkbetter.dev-blue?logo=google-chrome&logoColor=white)](https://thinkbetter.dev)
 
 **Works with:** Claude AI · GitHub Copilot · Antigravity
 
