@@ -15,7 +15,7 @@ Think Better injects structured decision frameworks directly into your AI prompt
 [![12 Biases](https://img.shields.io/badge/Biases-12-red?style=flat-square)](.)
 [![4 Depth Levels](https://img.shields.io/badge/Depth-4_Levels-ff69b4?style=flat-square)](.)
 
-[Website](https://hoangthequyen.github.io/think-better/) · [Documentation](USER-GUIDE.md) · [Quick Reference](QUICK-REFERENCE.md) · [Contributing](CONTRIBUTING.md)
+[Website](https://thinkbetter.dev/) · [Documentation](USER-GUIDE.md) · [Quick Reference](QUICK-REFERENCE.md) · [Contributing](CONTRIBUTING.md)
 
 **Works with** Claude · GitHub Copilot · Antigravity
 
