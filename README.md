@@ -294,17 +294,17 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 <div align="center">
 
-# 🇻🇳 Tieng Viet
+# 🇻🇳 Tiếng Việt
 
-**Ngung Doan Mo. Bat Dau Tu Duy Co Cau Truc.**
+**Ngừng Đoán Mò. Bắt Đầu Tư Duy Có Cấu Trúc.**
 
-AI viet code nhanh nhung ra quyet dinh te.<br>
-Think Better tiem framework tu duy vao prompt -- bien AI thanh Staff Engineer.<br>
-**Ban CEO/Founder Edition** bo sung framework cho startup, AI-First, va cuoc song ca nhan.
+AI viết code nhanh nhưng ra quyết định tệ.<br>
+Think Better tiêm framework tư duy vào prompt — biến AI thành Staff Engineer.<br>
+**Bản CEO/Founder Edition** bổ sung framework cho startup, AI-First, và cuộc sống cá nhân.
 
 </div>
 
-### Cai Dat
+### Cài Đặt
 
 ```bash
 # macOS / Linux
@@ -313,65 +313,65 @@ curl -sSL https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/inst
 # Windows
 irm https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/install.ps1 | iex
 
-# Cai skill
+# Cài skill
 think-better init --ai claude
 ```
 
-### Cach Dung
+### Cách Dùng
 
-Noi chuyen voi AI binh thuong -- Think Better tu kich hoat:
+Nói chuyện với AI bình thường — Think Better tự kích hoạt:
 
-| Ban Noi | AI Lam |
+| Bạn Nói | AI Làm |
 |---------|--------|
-| *"Nen chon cong ty lon hay startup?"* | `make-decision` -> Weighted Matrix, canh bao Status Quo Bias |
-| *"Nen build AI agent hay focus marketing?"* | `make-decision` -> Innovation Bet, canh bao Shiny Object Syndrome |
-| *"So sanh React vs Vue vs Angular"* | Bang so sanh voi tieu chi co trong so |
-| *"Tai sao doanh thu giam?"* | `problem-solving-pro` -> Issue Tree, Root Cause Analysis |
-| *"Bi ket, khong biet lam sao"* | 7 buoc: Dinh nghia -> Phan tach -> Uu tien -> Phan tich |
-| *"Work-life balance — nen lam gi?"* | Personal Life Decision -> Criteria: fulfillment, health, time freedom |
+| *"Nên chọn công ty lớn hay startup?"* | `make-decision` → Weighted Matrix, cảnh báo Status Quo Bias |
+| *"Nên build AI agent hay focus marketing?"* | `make-decision` → Innovation Bet, cảnh báo Shiny Object Syndrome |
+| *"So sánh React vs Vue vs Angular"* | Bảng so sánh với tiêu chí có trọng số |
+| *"Tại sao doanh thu giảm?"* | `problem-solving-pro` → Issue Tree, Root Cause Analysis |
+| *"Bị kẹt, không biết làm sao"* | 7 bước: Định nghĩa → Phân tách → Ưu tiên → Phân tích |
+| *"Work-life balance — nên làm gì?"* | Personal Life Decision → Criteria: fulfillment, health, time freedom |
 
-### Tinh Nang Moi (CEO/Founder Edition)
+### Tính Năng Mới (CEO/Founder Edition)
 
-- **15 criteria templates** (them: Startup/AI, Pricing, Fundraising, Personal Life, Investment, AI Tool)
-- **12 decision types** (them: Personal Life, Innovation Bet/AI-First, Exit, Portfolio)
-- **16 cognitive biases** (them: Shiny Object, IKEA Effect, Optimism, FOMO)
-- **18 mental models** (them: Network Effects, Power Law, Compounding, Antifragility, Optionality, Lindy)
+- **15 criteria templates** (thêm: Startup/AI, Pricing, Fundraising, Personal Life, Investment, AI Tool)
+- **12 decision types** (thêm: Personal Life, Innovation Bet/AI-First, Exit, Portfolio)
+- **16 cognitive biases** (thêm: Shiny Object, IKEA Effect, Optimism, FOMO)
+- **18 mental models** (thêm: Network Effects, Power Law, Compounding, Antifragility, Optionality, Lindy)
 
 ### 2 Skill
 
-**`/decide`** -- Chon lua
-- 10 framework · 16 bias · 15 criteria templates · So sanh da tieu chi · Nhat ky quyet dinh
+**`/decide`** — Chọn lựa
+- 10 framework · 16 bias · 15 criteria templates · So sánh đa tiêu chí · Nhật ký quyết định
 
-**`/solve`** -- Giai quyet van de
-- 7 buoc McKinsey · 15 framework phan tach · 18 mo hinh tu duy
+**`/solve`** — Giải quyết vấn đề
+- 7 bước McKinsey · 15 framework phân tách · 18 mô hình tư duy
 
 ### Slash Commands
 
-| Lenh | Khi Nao |
+| Lệnh | Khi Nào |
 |------|---------|
 | `/solve.quick` · `/decide.quick` | Scan nhanh |
-| `/solve` · `/decide` | Phan tich chuan |
-| `/solve.deep` · `/decide.deep` | Phuc tap, high-stakes |
-| `/solve.exec` · `/decide.exec` | Bao cao cho leadership |
+| `/solve` · `/decide` | Phân tích chuẩn |
+| `/solve.deep` · `/decide.deep` | Phức tạp, high-stakes |
+| `/solve.exec` · `/decide.exec` | Báo cáo cho leadership |
 
 ```
-/solve.quick API cham sau deploy
-/decide.deep Nen build AI agent hay focus core marketing?
+/solve.quick API chậm sau deploy
+/decide.deep Nên build AI agent hay focus core marketing?
 /decide work-life balance CEO — more income or more time?
 ```
 
-### Luu Y
+### Lưu Ý
 
-- Knowledge base tieng Anh -- AI tu dich keyword truoc khi search
-- Can **Python 3** cho script phan tich
-- Ho tro **Claude, Copilot, Antigravity**
+- Knowledge base tiếng Anh — AI tự dịch keyword trước khi search
+- Cần **Python 3** cho script phân tích
+- Hỗ trợ **Claude, Copilot, Antigravity**
 
 ---
 
 <div align="center">
 
-**MIT License** · Original project by [@HoangTheQuyen](https://github.com/HoangTheQuyen) · CEO/Founder Edition by [@tuansami](https://github.com/tuansami)
+**MIT License** · Dự án gốc bởi [@HoangTheQuyen](https://github.com/HoangTheQuyen) · Bản CEO/Founder Edition bởi [@tuansami](https://github.com/tuansami)
 
-**[⭐ Star the original](https://github.com/HoangTheQuyen/think-better)** · **[⭐ Star this fork](https://github.com/tuansami/think-better)**
+**[⭐ Star dự án gốc](https://github.com/HoangTheQuyen/think-better)** · **[⭐ Star bản fork này](https://github.com/tuansami/think-better)**
 
 </div>
